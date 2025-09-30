@@ -1,0 +1,30 @@
+.icons{
+text-align: center;
+}
+.icons a{
+    text-decoration: none;
+}
+.fa-solid.fa-house-chimney.fa-rotate-by.fa-5x{
+    color:rgb(160, 226, 160);
+}
+.fa-solid.fa-house-chimney.fa-rotate-by.fa-5x:hover{
+    color:hsl(120, 53%, 40%);
+}
+.fa-brands.fa-twitter.fa-5x{
+    color:rgb(62, 181, 255);
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+    color:hsl(203, 100%, 42%);
+}
+.fa-brands.fa-reddit.fa-5x{
+    color:rgb(253, 95, 38);
+}
+.fa-brands.fa-reddit.fa-5x:hover{
+    color:hsl(16, 98%, 47%);
+}
+.fa-brands.fa-meta.fa-5x{
+    color:rgb(116, 169, 218);
+}
+.fa-brands.fa-meta.fa-5x:hover{
+    color:hsl(209, 58%, 45%);
+}

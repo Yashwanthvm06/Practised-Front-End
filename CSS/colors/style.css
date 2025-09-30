@@ -1,0 +1,25 @@
+body{
+    background-color: #cbcbcb;
+}
+h1{
+    text-align:center;
+    color: #FF5733;
+}
+h2{
+    color: rgb(255, 0, 0);
+}
+#p1{
+    color:rgb(255, 140, 0);
+}
+#p2{
+    color:hsl(180, 100%, 28%);
+}   
+a:visited{
+    color:rgb(65, 0, 125);
+}
+a:hover{
+    color:darkorange;
+}
+a:hover:active{
+    color:oklab(0% 0 0);
+}

@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Short survey form</h1>
+    <p id="description">It's a survey to know our efforts that had reached you</p>
+    <form id="survey-form"  method="POST">
+      <label for="name" id="name-label">Name :</label>
+      <input type="text" id="name" placeholder="Enter your name" required><br>
+      <label id="email-label"for="email">E-mail:</label>
+      <input id="email" type="email" placeholder="example@email.com" required><br>
+      <label id="number-label"for="number">Age:</label>
+      <input  id="number"type="number" min="0" max="100" placeholder="enter your age"><br>
+      <label for="dropdown">Have you enjoyed ?</label>
+<select id="dropdown">
+
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+  </select><br>
+  <p>Is this your first time ?</p>
+  <input type="radio" id="visited" value="visited" name="visited">
+  <label for="visited">Visited already</label><br>
+  <input type="radio" id="first-time" value="first-time"name="visited">
+  <label for="first-time">First time</label><br>
+  <p>Explain your status: </p>
+  <label for="education" ><input type="checkbox"name="status"id="education"value="Completed education">Completed Education</label>
+  <label for="married"><input type="checkbox" id="married"name="status" value="married">Married</label>
+  <label for="single"><input type="checkbox" id="single"name="status"value="single">Studying</label>
+  <p>Comments:</p>
+<textarea></textarea><br>
+<input type="submit" id="submit">
+<button type="reset">Reset</button>
+      </form>
+  </body>
+</html>
+
+

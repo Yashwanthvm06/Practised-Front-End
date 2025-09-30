@@ -1,0 +1,27 @@
+h1::first-letter{
+    font-size: 2em;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+p::first-line{
+    background-color:rgb(246, 255, 0);
+}
+p::selection{
+    color:blueviolet;
+    background-color: rgb(35, 0, 68);
+}
+#apple::after{
+    content:"🍎";
+}
+#orange::after{
+    content:"🍊";
+}
+#fruit li::marker{
+    content:"✔️";
+    color:rgb(51, 255, 0);
+    font-size: 1.5em;
+}
+.check {
+    color: rgb(255, 2, 2);
+    font-size: 1.5em;
+}

@@ -1,0 +1,32 @@
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(107, 239, 107);
+    color:white;
+    border:none;
+    padding:10px 15px;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color:rgb(10, 195, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .fastfdcon{
+    display: none;
+    position:absolute;
+    background-color: rgb(246, 246, 246);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(18, 18, 18, 0.2);
+}
+.dropdown:hover .fastfdcon{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(12, 153, 12);
+}
+.dropdown a:hover{
+    background-color: rgb(219, 219, 219);
+}

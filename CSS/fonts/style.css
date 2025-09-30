@@ -1,0 +1,12 @@
+h1{
+    /*if verdana works its okei but in some browser verdana is not working then arial will work*/
+    font-family: "Edu NSW ACT Cursive" ,Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+#p2{
+    font-family: "Lexend Giga", Arial, sans-serif;
+    font-size: 1.2em;
+}

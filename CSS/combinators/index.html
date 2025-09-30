@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Usage of combinators</title>
+</head>
+<body>
+    <!--
+        combinators - explains the relationship 
+                       between listed selectors
+                       =descendants
+                       > = child
+                       ~ = general siblings
+                       + = adjacent siblings
+                       -->
+                       <div id="container">
+                        <p> this is para 1</p>
+                        <p>this is para 2</p>
+                        <div>
+                            <p>this is para inside the div of div</p>
+                        </div>
+                       </div>
+                       <p>but im only the adjacent sibling because i near them</p>
+                       <p>the element with the margin is the adjacent</p>
+                       <p>this is para 4 outside the div</p>
+                       <p>this is outside though </p>
+</body>
+</html>

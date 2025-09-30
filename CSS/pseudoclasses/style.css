@@ -1,0 +1,30 @@
+a:link{
+    color:rgb(241, 255, 52);
+}
+a:hover{
+    color:orange;
+    font-size:1.1em;
+}
+a:active{
+    color:rgb(255, 0, 0);
+}
+a:visited{
+    color:rgb(0, 0, 0);
+}
+li:hover{
+    background-color: rgb(88, 255, 130);
+}
+li:not(:hover){
+    background-color: rgb(255, 243, 175);
+}
+li:nth-child(2n){
+    background-color: rgb(255, 230, 41);
+}
+#greet p{
+    background-color: rgb(255, 102, 102);
+    padding:10px;
+    display: none;
+}
+#greet:hover p{
+    display: block;
+}

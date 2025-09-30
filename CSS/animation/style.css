@@ -1,0 +1,24 @@
+#box1{
+    width:250px;
+    border:5px solid black;
+    height:250px;
+    text-align: center;
+    background-color: rgb(249, 171, 89);
+    font-size:7em;
+    margin:30px;
+}
+
+img{
+    animation: bounce 2s infinite ease-in-out;
+    width:250px;
+    height:250px;
+    margin: 650px 550px 250px 590px;
+}
+@keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-150px);
+      }
+    }

@@ -1,0 +1,12 @@
+#container{
+    border:2px solid brown;
+}
+#container > p{
+    background: yellow;
+}
+#container + p{
+    border:5px solid red;
+}
+#container ~ p{
+    background: green;
+}

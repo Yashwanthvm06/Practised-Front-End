@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Block & Inline Quotes with Cite</title>
+  <style>
+    blockquote {
+      border-left: 4px solid #555;
+      padding: 10px;
+      margin: 10px 0;
+      font-style: italic;
+      background: #f9f9f9;
+      position: relative;
+    }
+
+    /* Display cite link under blockquote */
+    blockquote[cite]::after {
+      content: "Source: " attr(cite);
+      display: block;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 5px;
+    }
+
+    q {
+      background: #eef;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+
+    /* Inline quote with cite tooltip */
+    q[cite] {
+      position: relative;
+      cursor: help;
+    }
+
+    q[cite]::after {
+      content: " (" attr(cite) ")";
+      font-size: 0.8em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Block Quote with Cite</h2>
+<blockquote cite="https://www.w3.org/TR/html52/">
+  HTML is the standard markup language for documents designed to be displayed in a web browser.
+</blockquote>
+
+<h2>Inline Quote with Cite</h2>
+<p>
+  Tim Berners-Lee said, 
+  <q cite="https://www.w3.org/People/Berners-Lee/">The Web is for everyone</q>,
+  during a public talk.
+</p>
+
+</body>
+</html>

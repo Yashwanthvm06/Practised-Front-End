@@ -1,0 +1,15 @@
+div {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  /* just hides the element but space occupies visibility: hidden*/
+    /*none totaly removes the element from the document flow*/ 
+}
+
+span {
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+  display: inline;
+}

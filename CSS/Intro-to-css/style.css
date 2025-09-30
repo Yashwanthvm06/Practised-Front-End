@@ -1,0 +1,18 @@
+body{
+    background-color:aqua;
+}
+h1{
+    color:blue;
+}
+p{
+    color:black;
+}
+h2{
+    color:firebrick;
+}
+.odd{
+    color:indianred;
+}
+.even{
+    color:dodgerblue;
+}
