@@ -4,6 +4,12 @@ body{
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
-#mylabel{
-    margin-bottom: 40px;
+#btn{
+    font-size:3em;
+    border-radius: 5px;
+    padding:10px 20px;
+    cursor: pointer;
+}
+#dice{
+    font-size: 3em;
 }

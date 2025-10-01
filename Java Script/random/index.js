@@ -1,18 +1,17 @@
-const age=document.getElementById("age");
-const check=document.getElementById("check");
-const myh1=document.getElementById("myh1");
-let agecheck=0;
-
-check.onclick=function(){
-    agecheck=Number(age.value);
-
-    if(agecheck >= 18 && agecheck <=100){
-        myh1.textContent="you can vote at this age";
-    }
-    else if(agecheck > 100 || agecheck <= 0){
-        myh1.textContent="you can't vote check the age";
-    }
-    else{
-    myh1.textContent="your age is not right vote :  (";
-        }
+const btn=document.getElementById("btn");
+const dice1=document.getElementById("dice1");
+const dice2=document.getElementById("dice2");
+const dice3=document.getElementById("dice3");
+const min=1;
+const max=6;
+ let rn1;
+ let rn2;
+ let rn3;
+btn.onclick=function(){
+    rn1=Math.floor(Math.random()*(max-min)+min);
+    rn2=Math.floor(Math.random()*(max-min)+min);
+    rn3=Math.floor(Math.random()*(max-min)+min);
+    dice1.textContent=rn1;
+    dice2.textContent=rn2;
+    dice3.textContent=rn3;
 }
