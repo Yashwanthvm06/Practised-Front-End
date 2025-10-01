@@ -1,8 +1,19 @@
+//let age=16;
 
-console.log("heyy buddy");
-console.log("js is working hehe!!!");
+//let message = age>=18 ? "you are eligible":"you are not eleigible";
+//console.log(message);
 
-window.alert("heyyyy js is working hehe!!!");
+//let time=9;
 
-document.getElementById("fh1").textContent = `This is the first heading using console.log`;
-document.getElementById("fp").textContent = `This is the first paragraph console.log`;
+//let greet=time<12?"good morning":"good afternoon";
+//console.log(greet);
+
+const sub=document.getElementById("sub");
+const amount=document.getElementById("amount");
+
+sub.onclick=function(){
+
+    let amo = Number(amount.value);
+    let discount=amo>100?10:0;
+    myh1.textContent=`the total after discount reduced is : ₹${amo-amo*(discount/100)}`;
+}
